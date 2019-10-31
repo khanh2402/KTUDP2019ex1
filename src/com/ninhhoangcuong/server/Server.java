@@ -26,7 +26,7 @@ public class Server {
     public static String RandomString() {
         ran = new Random();
         //size of stringBuilder
-        int n = ran.nextInt(10);
+        int n = ran.nextInt(20);
         StringBuilder sb = new StringBuilder(n);
         for (int i = 0; i < n; i++) {
 
@@ -41,7 +41,7 @@ public class Server {
 
     public static int RandomNumber() {
         ran = new Random();
-        return ran.nextInt(100000);
+        return ran.nextInt(100);
     }
 
     public static int GCD(int a, int b) {
